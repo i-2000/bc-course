@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+hr{
+    border: 3px brown solid;
+}
+h1,h3{
+    color: aqua;
+}

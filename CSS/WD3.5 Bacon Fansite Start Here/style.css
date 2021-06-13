@@ -1,0 +1,14 @@
+p{
+    color: red;
+}
+
+img{
+    background-color: red;
+}
+img:hover{
+    background-color: rgb(221, 255, 68);
+}
+
+/* css selectors */
+/* id has to be unique, and class can be used to style a groups or related elements */
+/* a pseudo class is like this : and signify the classes state. */

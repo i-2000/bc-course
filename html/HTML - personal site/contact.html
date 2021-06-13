@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--this tells the browser what version of HTMl it is working with  -->
+<html lang="en">
+
+<head>
+    <!--Tells the browser how it should render-->
+    <meta charset="UTF-8">
+    <!--encoding the website correctly standard and includes all characters and emojis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifrah's Personal Page</title>
+</head>
+
+<body>
+    <p>this is my contact details.</p>
+
+
+    <!-- different attributes for a tags -->
+    <ul>
+        <li><a href="https://example.com">Website</a></li>
+        <li><a href="mailto:m.bluth@example.com">Email</a></li>
+        <li><a href="tel:+123456789">Phone</a></li>
+    </ul>
+    <a href="" download="images/example.jpg">Download example</a>
+    <hr>
+    <!-- different targets for a tags -->
+    <ul>
+        <li><a target="_blank" href="https://example.com">Website</a></li> <!-- this goes to a new tab -->
+        <li><a target="_self" href="https://example.com">Website</a></li>
+        <!-- this opens in the same tab which is default -->
+        <li><a target="_parent" href="https://example.com">Website</a></li>
+        <!-- the parent browsing context of the current one. If no parent, behaves as _self -->
+        <li><a target="_top" href="https://example.com">Website</a></li>
+        <!-- the topmost browsing context (the "highest" context that’s an ancestor of the current one). If no ancestors, behaves as _self. -->
+    </ul>
+    <hr>
+    <!-- forms -->
+    <form class="" action="" method="post">
+
+        <!-- input types -->
+        <label for="">Text Input type</label>
+        <input type="text">
+        <input type="button" value="">
+        <input type="checkbox" name="" id="">
+        <input type="color" name="" id="">
+        <input type="date" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="email" name="" id="">
+        <input type="file" name="" id="">
+        <input type="hidden" name="">
+        <input type="image" src="" alt="">
+        <input type="month" name="" id="">
+        <input type="number" name="" id="">
+        <input type="password" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="range" name="" id="">
+        <input type="reset" value="">
+        <input type="search" name="" id="">
+        <input type="tel" name="" id="">
+        <input type="time" name="" id="">
+        <input type="url" name="" id="">
+        <input type="week" name="" id="">
+        <input type="submit" value="">
+
+
+
+    </form>
+    <hr>
+    <form action="mailto:ifrahvermeer@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Your name:</label>
+        <input type="text" name="" id=""><br>
+        <label for="email">Your email address:</label>
+        <input type="email" name="" id=""><br>
+        <label for="subject">Your message:</label><br>
+        <!-- rows determine how tall the text area is.Cols is how wide the text area should be. -->
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
